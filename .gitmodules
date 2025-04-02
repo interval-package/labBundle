@@ -7,6 +7,7 @@
 [submodule "algs/rsl_rl"]
   path = algs/rsl_rl
   url = git@github.com:interval-package/rsl_rl.git
+  branch = master
 [submodule "algs/RoboWorld"]
   path = algs/RoboWorld
   url = git@github.com:interval-package/RoboWorld.git
