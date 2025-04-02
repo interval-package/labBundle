@@ -1,13 +1,13 @@
 [submodule "tasks/factoryIsaac"]
-  path = tasks/factoryIsaac
-  url = git@github.com:interval-package/factoryIsaac.git
+	path = tasks/factoryIsaac
+	url = git@github.com:interval-package/factoryIsaac.git
 [submodule "tasks/trackerLab"]
-  path = tasks/trackerLab
-  url = git@github.com:interval-package/trackerLab.git
+	path = tasks/trackerLab
+	url = git@github.com:interval-package/trackerLab.git
 [submodule "algs/rsl_rl"]
-  path = algs/rsl_rl
-  url = git@github.com:interval-package/rsl_rl.git
-  branch = master
+	path = algs/rsl_rl
+	url = git@github.com:interval-package/rsl_rl.git
+	branch = master
 [submodule "algs/RoboWorld"]
-  path = algs/RoboWorld
-  url = git@github.com:interval-package/RoboWorld.git
+	path = algs/RoboWorld
+	url = git@github.com:interval-package/RoboWorld.git
