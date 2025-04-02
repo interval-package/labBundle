@@ -1,12 +1,12 @@
 [submodule "tasks/factoryIsaac"]
-  path = third_party/poselib
+  path = tasks/factoryIsaac
   url = git@github.com:interval-package/factoryIsaac.git
 [submodule "tasks/trackerLab"]
-  path = third_party/poselib
+  path = tasks/trackerLab
   url = git@github.com:interval-package/trackerLab.git
 [submodule "algs/rsl_rl"]
-  path = third_party/poselib
+  path = algs/rsl_rl
   url = git@github.com:interval-package/rsl_rl.git
 [submodule "algs/RoboWorld"]
-  path = third_party/poselib
+  path = algs/RoboWorld
   url = git@github.com:interval-package/RoboWorld.git
