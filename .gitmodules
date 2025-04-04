@@ -1,6 +1,3 @@
-[submodule "tasks/factoryIsaac"]
-	path = tasks/factoryIsaac
-	url = git@github.com:interval-package/factoryIsaac.git
 [submodule "tasks/trackerLab"]
 	path = tasks/trackerLab
 	url = git@github.com:interval-package/trackerLab.git
@@ -11,3 +8,6 @@
 [submodule "algs/RoboWorld"]
 	path = algs/RoboWorld
 	url = git@github.com:interval-package/RoboWorld.git
+[submodule "factoryIsaac"]
+	path = factoryIsaac
+	url = https://github.com/interval-package/factoryIsaac.git
