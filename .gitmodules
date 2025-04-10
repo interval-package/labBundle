@@ -10,4 +10,4 @@
 	url = git@github.com:interval-package/RoboWorld.git
 [submodule "factoryIsaac"]
 	path = factoryIsaac
-	url = https://github.com/interval-package/factoryIsaac.git
+	url = git@github.com:interval-package/factoryIsaac.git
