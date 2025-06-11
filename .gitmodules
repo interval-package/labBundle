@@ -11,3 +11,6 @@
 [submodule "factoryIsaac"]
 	path = factoryIsaac
 	url = git@github.com:interval-package/factoryIsaac.git
+[submodule "tasks/robot_mars"]
+	path = tasks/robot_mars
+	url = git@github.com:interval-package/robot_mars.git
