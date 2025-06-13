@@ -1,6 +1,7 @@
 [submodule "tasks/trackerLab"]
 	path = tasks/trackerLab
 	url = git@github.com:interval-package/trackerLab.git
+    branch = master
 [submodule "algs/rsl_rl"]
 	path = algs/rsl_rl
 	url = git@github.com:interval-package/rsl_rl.git
@@ -8,9 +9,20 @@
 [submodule "algs/RoboWorld"]
 	path = algs/RoboWorld
 	url = git@github.com:interval-package/RoboWorld.git
+    branch = master
 [submodule "factoryIsaac"]
 	path = factoryIsaac
 	url = git@github.com:interval-package/factoryIsaac.git
+    branch = master
 [submodule "tasks/robot_mars"]
 	path = tasks/robot_mars
 	url = git@github.com:interval-package/robot_mars.git
+    branch = master
+[submodule "algs/robo_offline"]
+	path = algs/robo_offline
+	url = git@github.com:interval-package/robo_offline.git
+    branch = master
+[submodule "tasks/dyna_terrain"]
+	path = tasks/dyna_terrain
+	url = git@github.com:interval-package/dyna_terrain.git
+    branch = master

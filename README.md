@@ -66,6 +66,10 @@ To ensure all submodules are up to date with their upstream repositories:
 
 ```bash
 git submodule update --remote --recursive
+
+git submodule update --remote
+
+git submodule update --init --recursive --remote
 ```
 
 ## 📘 Notes
