@@ -26,3 +26,6 @@
 	path = tasks/dyna_terrain
 	url = git@github.com:interval-package/dyna_terrain.git
     branch = master
+[submodule "algs/relaxIsaac"]
+	path = algs/relaxIsaac
+	url = git@github.com:interval-package/relaxIsaac.git
