@@ -1,7 +1,3 @@
-[submodule "tasks/trackerLab"]
-	path = tasks/trackerLab
-	url = git@github.com:interval-package/trackerLab.git
-    branch = master
 [submodule "algs/rsl_rl"]
 	path = algs/rsl_rl
 	url = git@github.com:interval-package/rsl_rl.git
@@ -29,3 +25,8 @@
 [submodule "algs/relaxIsaac"]
 	path = algs/relaxIsaac
 	url = git@github.com:interval-package/relaxIsaac.git
+    branch = master
+[submodule "tasks/trackerLab"]
+	path = tasks/trackerLab
+	url = git@github.com:interval-package/trackerLab.git
+    branch = master
