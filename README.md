@@ -68,8 +68,9 @@ The repository is organized as follows, with submodules structured into function
 To properly initialize and fetch all integrated submodules, use:
 
 ```bash
-git clone --recurse-submodules <this_repo_url>
-cd <repo_name>
+git clone https://github.com/interval-package/labBundle.git
+cd labBundle
+bash scripts/setup/init_bundle.sh
 ```
 
 Clone single submodule:
