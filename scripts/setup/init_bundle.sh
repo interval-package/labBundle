@@ -2,6 +2,15 @@
 
 # This script initializes and updates accessible submodules only.
 # If a submodule fails to update (e.g., due to permission issues), it will be skipped.
+# Use --all to fetch full history (all branches and commits) of each submodule.
+
+# Check for --all flag
+FULL_CLONE=false
+for arg in "$@"; do
+    if [[ "$arg" == "--all" ]]; then
+        FULL_CLONE=true
+    fi
+done
 
 # Initialize all submodules (does not clone them yet)
 git submodule init
@@ -16,10 +25,21 @@ echo
 # Iterate over each submodule and try to update
 for path in $submodule_paths; do
     echo "Updating submodule: $path"
-    if git submodule update --depth 1 --init "$path"; then
-        echo "✅ Successfully updated: $path"
+    
+    if $FULL_CLONE; then
+        # Clone full history
+        if git submodule update --init "$path"; then
+            echo "✅ Successfully updated (full clone): $path"
+        else
+            echo "⚠️ Failed to update: $path — skipped."
+        fi
     else
-        echo "⚠️ Failed to update: $path — skipped."
+        # Shallow clone
+        if git submodule update --init --depth 1 "$path"; then
+            echo "✅ Successfully updated (shallow): $path"
+        else
+            echo "⚠️ Failed to update: $path — skipped."
+        fi
     fi
     echo
 done

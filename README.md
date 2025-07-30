@@ -5,6 +5,28 @@ This repository integrates essential submodules for tasks, algorithms, and envir
 
 ---
 
+## 🚀 Getting Started
+
+### Clone with Submodules
+
+To properly initialize and fetch all integrated submodules, use:
+
+```bash
+git clone https://github.com/interval-package/labBundle.git
+cd labBundle
+bash scripts/setup/init_bundle.sh --all
+```
+
+Clone single submodule:
+```bash
+# Frist time clone
+git submodule update --init path/to/submodule
+
+# Update for new
+git submodule update --remote path/to/submodule
+
+```
+
 ## 📂 Repository Structure
 
 The repository is organized as follows, with submodules structured into functional domains:
@@ -60,28 +82,6 @@ The repository is organized as follows, with submodules structured into function
   * `RoboWorld`: General policy learning and robot modeling library.
 
 ---
-
-## 🚀 Getting Started
-
-### Clone with Submodules
-
-To properly initialize and fetch all integrated submodules, use:
-
-```bash
-git clone https://github.com/interval-package/labBundle.git
-cd labBundle
-bash scripts/setup/init_bundle.sh
-```
-
-Clone single submodule:
-```bash
-# Frist time clone
-git submodule update --init path/to/submodule
-
-# Update for new
-git submodule update --remote path/to/submodule
-
-```
 
 ### Update Submodules
 
